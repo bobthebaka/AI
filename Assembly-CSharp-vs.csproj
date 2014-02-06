@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{BA69E10A-2A39-3C15-1D5F-60240BEC8014}</ProjectGuid>
+	<ProjectGuid>{B3C401E3-0B46-F31E-904E-DC08456CB035}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,7 +46,14 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\scripts\MovementA.cs" />
+     <Compile Include="Assets\scripts\Board.cs" />
+     <Compile Include="Assets\scripts\Play.cs" />
+     <Compile Include="Assets\scripts\Randomize.cs" />
+     <Compile Include="Assets\scripts\RotationA.cs" />
+     <Compile Include="Assets\scripts\RotationB.cs" />
+     <Compile Include="Assets\scripts\RotationC.cs" />
+     <Compile Include="Assets\scripts\RotationD.cs" />
+     <Compile Include="Assets\scripts\SmoothMovement.cs" />
      <Compile Include="Assets\scripts\Solve.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
